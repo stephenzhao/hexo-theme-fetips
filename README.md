@@ -1,6 +1,6 @@
 # hexo-theme-fetips
 
-
+https://stephenzhao.github.io/fetips/
 ## Install
 
 1. Download from GitHub
@@ -25,12 +25,4 @@ cd themes/fetips
 git pull
 ```
 
-## [Live Demo](http://www.garyshen.com)
-
-## Screenshot
-
-![fetips](screenshot.jpg)
-
-## Bear in fetips
-![fetips](screenshot2.jpg)
-# hexo-theme-fetips
+## [Live Demo](https://stephenzhao.github.io/fetips/)
