@@ -17,6 +17,9 @@ socials:
   github: "https://github.com/stephenzhao"
   email: "zfcyb2009@163.com"
   wechat: "Damon"
+  zhihu: http://zhuanlan.zhihu.com/jscss
+  weibo: http://weibo.com/518057456/
+
 
 
 
@@ -50,6 +53,7 @@ favicon: /fetips/images/fetips_icon.jpg
 shortcut: /fetips/images/shortcut.png
 logo: /fetips/images/logo.png
 avatar: "/images/avatar.png"
+
 twitter:
 google_plus:
 fb_admins:
