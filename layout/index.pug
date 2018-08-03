@@ -1,0 +1,31 @@
+extends ../_partial/layout
+
+block content
+
+  .container.home
+    -var pre_date = null
+    each post, index in site.posts.sort('date', -1).data
+      -var new_date = moment(post.date).format('MMM DD YYYY')
+      -var today = moment(new Date()).format('MMM DD YYYY')
+      -var date_title = new_date === today ? '今日' : moment(post.date).format('dddd')
+      if new_date !== pre_date
+        - pre_date = new_date
+        div.date
+            h2.date-title #{date_title}
+              small #{pre_date}
+      section.article
+        if new_date === today
+          h3.today
+            a(href=url_for(post.path)).title= post.title || '未命名'
+        else
+          h3
+            a(href=url_for(post.path)).title= post.title || '未命名'
+
+        div.content.excerpt!= post.excerpt || truncate(strip_html(post.content), {length: 100})
+        div.article-footer
+          if post.tags
+            .tags!= list_tags(post.tags, { show_count: false, class: 'tag', style: false, separator: '' , amount: 2})
+          if post.author
+            a(href=url_for(post.author_link)).author @#{post.author}
+
+

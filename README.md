@@ -1,22 +1,19 @@
-# hexo-theme-curry
+# hexo-theme-fetips
 
-此主题参考[Bear](http://www.bear-writer.com/)的阅读体验而制作。
-
-[Bear](http://www.bear-writer.com/) is awesome! This theme is made with reference to it's reading experience.
 
 ## Install
 
 1. Download from GitHub
 ```shell
 $ cd your-hexo-site
-$ git clone https://github.com/gary-Shen/hexo-theme-curry themes/curry
+$ git clone https://github.com/gary-Shen/hexo-theme-fetips themes/fetips
 ```
-2. Set the `theme` field in **your site** `_config.yml` to `curry`
+2. Set the `theme` field in **your site** `_config.yml` to `fetips`
 ```yml
-theme: curry
+theme: fetips
 ```
 3. ❤️ Install dependencies.  
-Copy these [Dependencies in package.json](https://github.com/gary-Shen/hexo-theme-curry/blob/master/package.json#L6) to **your site** `package.json` then run:
+Copy these [Dependencies in package.json](https://github.com/gary-Shen/hexo-theme-fetips/blob/master/package.json#L6) to **your site** `package.json` then run:
 ```
 npm install
 ```
@@ -24,7 +21,7 @@ npm install
 ## Update
 
 ```shell
-cd themes/curry
+cd themes/fetips
 git pull
 ```
 
@@ -32,8 +29,8 @@ git pull
 
 ## Screenshot
 
-![curry](screenshot.jpg)
+![fetips](screenshot.jpg)
 
-## Bear in curry
-![curry](screenshot2.jpg)
+## Bear in fetips
+![fetips](screenshot2.jpg)
 # hexo-theme-fetips

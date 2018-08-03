@@ -1,0 +1,18 @@
+header.container#header
+  .header
+    .header-left
+      .brand
+        div.brand-name
+          h1.logo
+            a(href=config.root)
+              img(src=theme.logo, style="height:45px")
+        div.about-me=theme.about
+
+    .header-right
+      ul.navigation
+        if theme.menu
+          each link, text in theme.menu
+            li
+              a(href=link)=text
+
+    include ./aboutme.pug

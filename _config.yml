@@ -1,0 +1,56 @@
+# Header
+menu:
+  # 归档: /archives
+rss: /atom.xml
+title: 今日前端小知识
+logo_title: fetips
+about: 一日一集前端小知识
+
+author: Damon
+
+# Content
+excerpt_link: 全文...
+fancybox: true
+date_format: 'YYYY-MM-DD'
+
+socials:
+  github: "https://github.com/stephenzhao"
+  email: "zfcyb2009@163.com"
+  wechat: "Damon"
+
+
+
+# Sidebar
+# sidebar: right
+# widgets:
+# - category
+# - tag
+# - archive
+# - recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+#主题方案
+highlight_theme: atom light
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+disqus_shortname:
+
+# Miscellaneous
+google_analytics: 'UA-61220413-1'
+gauges_analytics:
+favicon: /fetips/images/fetips_icon.jpg
+shortcut: /fetips/images/shortcut.png
+logo: /fetips/images/logo.png
+avatar: "/images/avatar.png"
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

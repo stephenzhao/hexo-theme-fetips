@@ -1,0 +1,80 @@
+avatar-size = 4rem
+
+.header {
+  padding: 2 * gutter-size 0
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+}
+
+.header-left {
+  display: flex
+}
+
+.avatar {
+  width: avatar-size
+  height: avatar-size
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 3px solid #fff;
+  outline-offset: -3px;
+
+  img {
+    width: 100%
+    height: 100%
+  }
+}
+
+.brand {
+  display: flex
+  padding: .3rem 0
+}
+
+.brand-name {
+  font-size: gutter-size
+}
+
+h1.logo {
+  position relative;
+  // &:after{
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -10px;
+  //   right: 2px;
+  //   z-index: -1;
+  //   width: 63%;
+  //   height: 14px;
+  //   background: #ffca04;
+  // }
+}
+
+.about-me {
+  padding-top 10px
+  padding-left 1em
+  align-self center
+  font-size 18px
+  color: color-grey
+}
+
+.navigation {
+  clearfix()
+
+  li {
+    float left
+    margin-left 2rem
+
+    a {
+      color color-grey
+
+      &:after {
+        display none
+      }
+
+      &:hover {
+        color color-link
+      }
+    }
+  }
+}
